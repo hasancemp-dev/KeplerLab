@@ -1,0 +1,17 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Lesson_01_Cout/Lesson_01_Cout.vcxproj" Id="79393439-148a-4d7e-a03a-7f9fa79c481b" />
+  <Project Path="Lesson_02_Variables/Lesson_02_Variables.vcxproj" Id="3597f2a4-e70c-4aab-9f0d-89fd591c2700" />
+  <Project Path="Lesson_03_Input/Lesson_03_Input.vcxproj" Id="5ab22a64-8c91-44e0-ad46-6aca72a3ea35" />
+  <Project Path="Lesson_04_Conditions/Lesson_04_Conditions.vcxproj" Id="b23bd2df-ab76-4b88-90fc-ce7c9a1c49e6" />
+  <Project Path="Lesson_05_SwitchLogic/Lesson_05_SwitchLogic.vcxproj" Id="af830973-bd57-429f-902f-5fc72866720c" />
+  <Project Path="Lesson_06_Loops/Lesson_06_Loops.vcxproj" Id="b3542971-48e3-4063-a179-49da41ab614a" />
+  <Project Path="Lesson_07_Functions/Lesson_07_Functions.vcxproj" Id="c3ba9d48-d7d7-4137-aa0f-1f424737bf70" />
+  <Project Path="Lesson_08_Arrays/Lesson_08_Arrays.vcxproj" Id="241a2aaf-d623-4c6b-9896-a8d04eb4b32d" />
+  <Project Path="Lesson_09_MemorySizes/Lesson_09_MemorySizes.vcxproj" Id="10cfaaa5-69c5-4a69-9095-fe72e6def429" />
+  <Project Path="Lesson_10_Pointers/Lesson_10_Pointers.vcxproj" Id="5c131196-39a0-4c41-b3de-2553b554fa25" />
+  <Project Path="Lesson_11_HeapStack/Lesson_11_HeapStack.vcxproj" Id="f3b69deb-7580-4edd-863d-9271a43ce273" />
+</Solution>
