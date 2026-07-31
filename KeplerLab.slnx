@@ -14,4 +14,7 @@
   <Project Path="Lesson_09_MemorySizes/Lesson_09_MemorySizes.vcxproj" Id="10cfaaa5-69c5-4a69-9095-fe72e6def429" />
   <Project Path="Lesson_10_Pointers/Lesson_10_Pointers.vcxproj" Id="5c131196-39a0-4c41-b3de-2553b554fa25" />
   <Project Path="Lesson_11_HeapStack/Lesson_11_HeapStack.vcxproj" Id="f3b69deb-7580-4edd-863d-9271a43ce273" />
+  <Project Path="Lesson_12_SmartPtrs/Lesson_12_SmartPtrs.vcxproj" Id="099b996c-e216-45ea-a0c6-80cc61705e2a" />
+  <Project Path="Lesson_13_ConstMove/Lesson_13_ConstMove.vcxproj" Id="6776f42d-96e5-4366-8826-a09be0c35da4" />
+  <Project Path="Project_TextRPG/Project_TextRPG.vcxproj" Id="54653e64-97e5-4bb7-b202-42c9725117f5" />
 </Solution>
