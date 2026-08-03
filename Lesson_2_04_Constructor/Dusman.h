@@ -22,5 +22,11 @@ public:
 
 	void HasarAl(int gelenHasar);
 	void Bilgi() const;
+
+
+
+	~Dusman();
+
+	Dusman(const std::string& a, int c, int h);
 };
 

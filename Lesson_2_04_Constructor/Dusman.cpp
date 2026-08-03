@@ -1,6 +1,8 @@
 #include "Dusman.h"		//kendi header'ını dahil et
 #include <iostream>		//Bilgi() içinde cout kullanılacağı için burada lazım
 
+
+
 //Getter
 std::string Dusman::GetAd() const	// Sinif::Metod() — "bu fonksiyon Dusman'a ait" der 
 {
@@ -59,5 +61,23 @@ void  Dusman::HasarAl(int gelenHasar)
 
 void  Dusman::Bilgi() const
 {
-	std::cout << ad << " - Can: " << can << ", Hasar: " << hasar << std::endl;
+	std::cout << "============================" << std::endl;
+	std::cout << "\t   STATS" << std::endl;
+	std::cout << "============================" << std::endl;
+	std::cout << "Name:\t" << GetAd() << std::endl;
+	std::cout << "Health:\t" << GetCan() << std::endl;
+	std::cout << "Damage:\t" << GetHasar() << std::endl;
+
 }
+ 
+
+Dusman::~Dusman()
+{
+	std::cout << ad << " yok edildi!" << std::endl;
+}
+
+Dusman::Dusman(const std::string& a, int c, int h) : ad(a)
+{
+	SetCan(c);
+	SetHasar(h);
+};
