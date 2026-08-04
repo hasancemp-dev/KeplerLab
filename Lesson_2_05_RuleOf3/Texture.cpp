@@ -7,16 +7,15 @@ Texture::Texture(int id, const std::string& file) :  handleID(id), fileName(file
 {
 	std::cout << "GPU: handle " << handleID << " CREATED (" << fileName << ")" << std::endl;
 }
-
+/*
 //copy ctor
 Texture::Texture(const Texture& other) : handleID(other.handleID + 100), fileName(other.fileName)
+
 {
 	std::cout << "GPU: handle " << handleID << " COPIED (" << fileName << ")" << std::endl;
 }
-
-
-
-
+*/	
+/*
 //copy assignment
 Texture& Texture::operator=(const Texture& other)
 
@@ -35,15 +34,14 @@ Texture& Texture::operator=(const Texture& other)
 	std::cout << "previous variables are deleted" << std::endl;
 
 	// (3) YENI KAYNAGI AL ve kopyala
-	handleID = other.handleID;
+	handleID = other.handleID + 100;
 	fileName = other.fileName;
 
 	// (4) KENDINI DONDUR
 	return *this;
 	
 }
-
-
+*/
 Texture::~Texture()
 {
 	std::cout << "GPU: handle " << handleID << " DELETED (" << fileName << ")" << std::endl;

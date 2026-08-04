@@ -26,5 +26,6 @@
     <Project Path="Lesson_2_04_Constructor/Lesson_2_04_Constructor.vcxproj" Id="c2bc0bfe-0a2b-4bff-9dab-a91946050461" />
     <Project Path="Lesson_2_05_Envanter(RO3)/Lesson_2_05_Envanter(RO3).vcxproj" Id="9bfcb591-762d-4ff0-8344-2936d98fa831" />
     <Project Path="Lesson_2_05_RuleOf3/Lesson_2_05_RuleOf3.vcxproj" Id="b66be729-1904-40f0-84c9-5254d0b4e0f0" />
+    <Project Path="Lesson_2_06_RuleOf5_0/Lesson_2_06_RuleOf5_0.vcxproj" Id="2c8f96a4-5ec1-4179-8d20-d3a5dfac1011" />
   </Folder>
 </Solution>

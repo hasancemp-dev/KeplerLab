@@ -17,6 +17,10 @@ public:
 	
 	Texture& operator=(const Texture& other) = delete;	 // copy assignment
 
+	Texture(Texture&& other) noexcept;					//move ctor
+
+	Texture& operator=(Texture&& other) noexcept;		//move assignment
+
 	~Texture();									     // destructor x-x
 
 };
