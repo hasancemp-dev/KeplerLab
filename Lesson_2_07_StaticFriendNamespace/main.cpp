@@ -5,7 +5,7 @@
 
 void EnemyQuery()
 {
-	int count = Enemy::GetEnemyCount();   // bir kez sor, sakla
+	int count = Enemy::GetEnemyCount();   // ask once and keep
 
 	if (count == 1) { std::cout << "There is only " << count << " enemy" << std::endl; }
 	else if (count > 1) { std::cout << "There are " << count << " enemies" << std::endl; }
