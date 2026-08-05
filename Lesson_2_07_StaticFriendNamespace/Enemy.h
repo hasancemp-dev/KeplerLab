@@ -2,19 +2,27 @@
 
 #include <string>
 
-class Enemy
+namespace Kepler
 {
-private:
 
-	static int enemyCount;    
-	std::string name;
-	int health, damage;
+	class Enemy
+	{
+	private:
 
-public:
+		static int enemyCount;
+		std::string name;
+		int health, damage;
+		friend bool WinsAgainst(const Enemy& a, const Enemy& b); // give the accesibility per once
 
-	Enemy(const std::string& n, int h, int d);
+	public:
 
-	~Enemy();
+		Enemy(const std::string& n, int h, int d);
 
-	static int GetEnemyCount();
-};
+		~Enemy();
+
+		static int GetEnemyCount();
+
+
+	};//class
+
+}//namespace
